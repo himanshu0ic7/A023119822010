@@ -1,0 +1,18 @@
+{
+  "name": "logging-middleware",
+  "version": "1.0.0",
+  "description": "A reusable middleware for sending logs to the evaluation service.",
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start:example": "npm run build && node --env-file=.env dist/examples/usage.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "typescript": "^5.4.5"
+  }
+}
